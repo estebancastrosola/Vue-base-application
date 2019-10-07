@@ -1,6 +1,31 @@
 {
-  "errors": {},
+  "errors": {
+    "NotFound": "What you were looking for was not found"
+  },
   "common": {
-    "HELLO": "Hello"
+    "HELLO": "Hello",
+    "CLOSE": "Close"
+  },
+  "toolbarItems": {
+    "LOGIN": "Login",
+    "SEARCH": "Search",
+    "LOGOUT": "Logout"
+  },
+  "navigationDrawerItems": {
+    "HOME": "Home"
+  },
+  "login": {
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "LOGIN": "Login",
+    "FORGOT_PASSWORD": "Forgot password?",
+    "REGISTER": "Create an account"
+  },
+  "register": {
+    "LOGIN": "I prefer to login",
+    "REGISTER": "Register"
+  },
+  "loading": {
+    "PLEASE_WAIT": "Please wait..."
   }
 }

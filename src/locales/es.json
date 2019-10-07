@@ -1,6 +1,31 @@
 {
-  "errors": {},
+  "errors": {
+    "NotFound": "No se ha encontrado lo que buscabas"
+  },
   "common": {
-    "HELLO": "Hola"
+    "HELLO": "Hola",
+    "CLOSE": "Cerrar"
+  },
+  "toolbarItems": {
+    "LOGIN": "Iniciar sesión",
+    "SEARCH": "Buscar",
+    "LOGOUT": "Cerrar sesión"
+  },
+  "navigationDrawerItems": {
+    "HOME": "Inicio"
+  },
+  "login": {
+    "EMAIL": "Email",
+    "PASSWORD": "Contraseña",
+    "LOGIN": "Entrar",
+    "FORGOT_PASSWORD": "¿Has olvidado tu contraseña?",
+    "REGISTER": "Crear una cuenta"
+  },
+  "register": {
+    "LOGIN": "Prefiero iniciar sesión",
+    "REGISTER": "Registrarse"
+  },
+  "loading": {
+    "PLEASE_WAIT": "Por favor espere..."
   }
 }

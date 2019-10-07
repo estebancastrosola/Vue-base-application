@@ -1,33 +1,33 @@
 <template>
   <v-app>
-    <v-app-bar app>
-      <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn text href="https://github.com/vuetifyjs/vuetify/releases/latest" target="_blank">
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar>
-
+    <NavigationDrawer />
+    <Toolbar />
     <v-content>
-      <HelloWorld />
+      <loading />
+      <v-container fluid>
+        <router-view></router-view>
+      </v-container>
     </v-content>
+    <Footer />
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import NavigationDrawer from './components/core/NavigationDrawer.vue';
+import Toolbar from './components/core/Toolbar';
+import Footer from './components/core/Footer';
+import Loading from '@/components/core/Loading.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
-    HelloWorld
+    NavigationDrawer,
+    Footer,
+    Toolbar,
+    Loading,
   },
   data: () => ({
     //
-  })
+  }),
 };
 </script>

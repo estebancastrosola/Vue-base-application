@@ -4,7 +4,7 @@ import en from 'vee-validate/dist/locale/en';
 import es from 'vee-validate/dist/locale/es';
 
 const veeValidateConfig = {
-  locale: JSON.parse(localStorage.getItem('locale')) || 'en',
+  locale: JSON.parse(localStorage.getItem('locale')) || 'es',
   dictionary: {
     en,
     es,
